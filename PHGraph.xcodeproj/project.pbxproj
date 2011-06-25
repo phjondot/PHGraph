@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		CC511F130DBA3221005E3C2B /* PHColor.h in Headers */ = {isa = PBXBuildFile; fileRef = CC511F110DBA3221005E3C2B /* PHColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC511F140DBA3221005E3C2B /* PHColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CC511F120DBA3221005E3C2B /* PHColor.m */; };
+		CC511F350DBA39A4005E3C2B /* PHAxisSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = CC511F330DBA39A4005E3C2B /* PHAxisSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC511F360DBA39A4005E3C2B /* PHAxisSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = CC511F340DBA39A4005E3C2B /* PHAxisSystem.m */; };
+		CC511F400DBA3BBA005E3C2B /* PHCurve.h in Headers */ = {isa = PBXBuildFile; fileRef = CC511F3C0DBA3BBA005E3C2B /* PHCurve.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC511F410DBA3BBA005E3C2B /* PHCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = CC511F3D0DBA3BBA005E3C2B /* PHCurve.m */; };
+		CC511F420DBA3BBA005E3C2B /* PHFunctionGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = CC511F3E0DBA3BBA005E3C2B /* PHFunctionGraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC511F430DBA3BBA005E3C2B /* PHFunctionGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = CC511F3F0DBA3BBA005E3C2B /* PHFunctionGraph.m */; };
+		CC511F460DBA3BC9005E3C2B /* PHLineWithCartesianEquation.h in Headers */ = {isa = PBXBuildFile; fileRef = CC511F440DBA3BC9005E3C2B /* PHLineWithCartesianEquation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC511F470DBA3BC9005E3C2B /* PHLineWithCartesianEquation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC511F450DBA3BC9005E3C2B /* PHLineWithCartesianEquation.m */; };
+		CC511F4A0DBA3BD8005E3C2B /* PHParametricCurve.h in Headers */ = {isa = PBXBuildFile; fileRef = CC511F480DBA3BD8005E3C2B /* PHParametricCurve.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC511F4B0DBA3BD8005E3C2B /* PHParametricCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = CC511F490DBA3BD8005E3C2B /* PHParametricCurve.m */; };
+		CC53BF8C0DBA476E00CD17E7 /* PHVectorField.m in Sources */ = {isa = PBXBuildFile; fileRef = CC53BF8B0DBA476E00CD17E7 /* PHVectorField.m */; };
+		CC5E5D2B0DBA43D0009273AA /* PHVectorField.h in Headers */ = {isa = PBXBuildFile; fileRef = CC5E5D2A0DBA43D0009273AA /* PHVectorField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCAA9FCA0DB1CA700001AEF9 /* PHOverlayWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = CCAA9FC80DB1CA700001AEF9 /* PHOverlayWindow.h */; };
+		CCAA9FCB0DB1CA700001AEF9 /* PHOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAA9FC90DB1CA700001AEF9 /* PHOverlayWindow.m */; };
+		CCB2C6BC0DA7B86200A44787 /* PHAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB2C6AC0DA7B86200A44787 /* PHAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB2C6BD0DA7B86200A44787 /* PHAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2C6AD0DA7B86200A44787 /* PHAxis.m */; };
+		CCB2C6C20DA7B86200A44787 /* PHGraphObject.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB2C6B20DA7B86200A44787 /* PHGraphObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB2C6C30DA7B86200A44787 /* PHGraphObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2C6B30DA7B86200A44787 /* PHGraphObject.m */; };
+		CCB2C6C40DA7B86200A44787 /* PHGraphView.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB2C6B40DA7B86200A44787 /* PHGraphView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB2C6C50DA7B86200A44787 /* PHGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2C6B50DA7B86200A44787 /* PHGraphView.m */; };
+		CCB2C6C60DA7B86200A44787 /* PHPoints.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB2C6B60DA7B86200A44787 /* PHPoints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB2C6C70DA7B86200A44787 /* PHPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2C6B70DA7B86200A44787 /* PHPoints.m */; };
+		CCB2C6C80DA7B86200A44787 /* PHxAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB2C6B80DA7B86200A44787 /* PHxAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB2C6C90DA7B86200A44787 /* PHxAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2C6B90DA7B86200A44787 /* PHxAxis.m */; };
+		CCB2C6CA0DA7B86200A44787 /* PHyAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB2C6BA0DA7B86200A44787 /* PHyAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCB2C6CB0DA7B86200A44787 /* PHyAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2C6BB0DA7B86200A44787 /* PHyAxis.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CCA604970DAABC7A00EDB296 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB2C7020DA7BE7100A44787 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = Headers;
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* PHGraph_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHGraph_Prefix.pch; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* PHGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PHGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC511F110DBA3221005E3C2B /* PHColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHColor.h; sourceTree = "<group>"; };
+		CC511F120DBA3221005E3C2B /* PHColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHColor.m; sourceTree = "<group>"; };
+		CC511F330DBA39A4005E3C2B /* PHAxisSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHAxisSystem.h; sourceTree = "<group>"; };
+		CC511F340DBA39A4005E3C2B /* PHAxisSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHAxisSystem.m; sourceTree = "<group>"; };
+		CC511F3C0DBA3BBA005E3C2B /* PHCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHCurve.h; sourceTree = "<group>"; };
+		CC511F3D0DBA3BBA005E3C2B /* PHCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHCurve.m; sourceTree = "<group>"; };
+		CC511F3E0DBA3BBA005E3C2B /* PHFunctionGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHFunctionGraph.h; sourceTree = "<group>"; };
+		CC511F3F0DBA3BBA005E3C2B /* PHFunctionGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHFunctionGraph.m; sourceTree = "<group>"; };
+		CC511F440DBA3BC9005E3C2B /* PHLineWithCartesianEquation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHLineWithCartesianEquation.h; sourceTree = "<group>"; };
+		CC511F450DBA3BC9005E3C2B /* PHLineWithCartesianEquation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHLineWithCartesianEquation.m; sourceTree = "<group>"; };
+		CC511F480DBA3BD8005E3C2B /* PHParametricCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHParametricCurve.h; sourceTree = "<group>"; };
+		CC511F490DBA3BD8005E3C2B /* PHParametricCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHParametricCurve.m; sourceTree = "<group>"; };
+		CC53BF8B0DBA476E00CD17E7 /* PHVectorField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHVectorField.m; sourceTree = "<group>"; };
+		CC5E5D2A0DBA43D0009273AA /* PHVectorField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHVectorField.h; sourceTree = "<group>"; };
+		CCAA9FC80DB1CA700001AEF9 /* PHOverlayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHOverlayWindow.h; sourceTree = "<group>"; };
+		CCAA9FC90DB1CA700001AEF9 /* PHOverlayWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHOverlayWindow.m; sourceTree = "<group>"; };
+		CCB2C6AC0DA7B86200A44787 /* PHAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHAxis.h; sourceTree = "<group>"; };
+		CCB2C6AD0DA7B86200A44787 /* PHAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHAxis.m; sourceTree = "<group>"; };
+		CCB2C6B20DA7B86200A44787 /* PHGraphObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHGraphObject.h; sourceTree = "<group>"; };
+		CCB2C6B30DA7B86200A44787 /* PHGraphObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHGraphObject.m; sourceTree = "<group>"; };
+		CCB2C6B40DA7B86200A44787 /* PHGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHGraphView.h; sourceTree = "<group>"; };
+		CCB2C6B50DA7B86200A44787 /* PHGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHGraphView.m; sourceTree = "<group>"; };
+		CCB2C6B60DA7B86200A44787 /* PHPoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHPoints.h; sourceTree = "<group>"; };
+		CCB2C6B70DA7B86200A44787 /* PHPoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHPoints.m; sourceTree = "<group>"; };
+		CCB2C6B80DA7B86200A44787 /* PHxAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHxAxis.h; sourceTree = "<group>"; };
+		CCB2C6B90DA7B86200A44787 /* PHxAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHxAxis.m; sourceTree = "<group>"; };
+		CCB2C6BA0DA7B86200A44787 /* PHyAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHyAxis.h; sourceTree = "<group>"; };
+		CCB2C6BB0DA7B86200A44787 /* PHyAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHyAxis.m; sourceTree = "<group>"; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* PHGraph.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* PHGraph */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = PHGraph;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC5E5D2A0DBA43D0009273AA /* PHVectorField.h */,
+				CC53BF8B0DBA476E00CD17E7 /* PHVectorField.m */,
+				CC511F480DBA3BD8005E3C2B /* PHParametricCurve.h */,
+				CC511F490DBA3BD8005E3C2B /* PHParametricCurve.m */,
+				CC511F440DBA3BC9005E3C2B /* PHLineWithCartesianEquation.h */,
+				CC511F450DBA3BC9005E3C2B /* PHLineWithCartesianEquation.m */,
+				CC511F3C0DBA3BBA005E3C2B /* PHCurve.h */,
+				CC511F3D0DBA3BBA005E3C2B /* PHCurve.m */,
+				CC511F3E0DBA3BBA005E3C2B /* PHFunctionGraph.h */,
+				CC511F3F0DBA3BBA005E3C2B /* PHFunctionGraph.m */,
+				CC511F330DBA39A4005E3C2B /* PHAxisSystem.h */,
+				CC511F340DBA39A4005E3C2B /* PHAxisSystem.m */,
+				CC511F110DBA3221005E3C2B /* PHColor.h */,
+				CC511F120DBA3221005E3C2B /* PHColor.m */,
+				CCAA9FC80DB1CA700001AEF9 /* PHOverlayWindow.h */,
+				CCAA9FC90DB1CA700001AEF9 /* PHOverlayWindow.m */,
+				CCB2C6AC0DA7B86200A44787 /* PHAxis.h */,
+				CCB2C6AD0DA7B86200A44787 /* PHAxis.m */,
+				CCB2C6B20DA7B86200A44787 /* PHGraphObject.h */,
+				CCB2C6B30DA7B86200A44787 /* PHGraphObject.m */,
+				CCB2C6B40DA7B86200A44787 /* PHGraphView.h */,
+				CCB2C6B50DA7B86200A44787 /* PHGraphView.m */,
+				CCB2C6B60DA7B86200A44787 /* PHPoints.h */,
+				CCB2C6B70DA7B86200A44787 /* PHPoints.m */,
+				CCB2C6B80DA7B86200A44787 /* PHxAxis.h */,
+				CCB2C6B90DA7B86200A44787 /* PHxAxis.m */,
+				CCB2C6BA0DA7B86200A44787 /* PHyAxis.h */,
+				CCB2C6BB0DA7B86200A44787 /* PHyAxis.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* PHGraph_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB2C6BC0DA7B86200A44787 /* PHAxis.h in Headers */,
+				CCB2C6C20DA7B86200A44787 /* PHGraphObject.h in Headers */,
+				CCB2C6C40DA7B86200A44787 /* PHGraphView.h in Headers */,
+				CCB2C6C60DA7B86200A44787 /* PHPoints.h in Headers */,
+				CCB2C6C80DA7B86200A44787 /* PHxAxis.h in Headers */,
+				CCB2C6CA0DA7B86200A44787 /* PHyAxis.h in Headers */,
+				CCAA9FCA0DB1CA700001AEF9 /* PHOverlayWindow.h in Headers */,
+				CC511F130DBA3221005E3C2B /* PHColor.h in Headers */,
+				CC511F350DBA39A4005E3C2B /* PHAxisSystem.h in Headers */,
+				CC511F400DBA3BBA005E3C2B /* PHCurve.h in Headers */,
+				CC511F420DBA3BBA005E3C2B /* PHFunctionGraph.h in Headers */,
+				CC511F460DBA3BC9005E3C2B /* PHLineWithCartesianEquation.h in Headers */,
+				CC511F4A0DBA3BD8005E3C2B /* PHParametricCurve.h in Headers */,
+				CC5E5D2B0DBA43D0009273AA /* PHVectorField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DC2EF4F0486A6940098B216 /* PHGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "PHGraph" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+				CCB2C7020DA7BE7100A44787 /* CopyFiles */,
+				CCA604970DAABC7A00EDB296 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PHGraph;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = PHGraph;
+			productReference = 8DC2EF5B0486A6940098B216 /* PHGraph.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "PHGraph" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* PHGraph */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* PHGraph */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB2C6BD0DA7B86200A44787 /* PHAxis.m in Sources */,
+				CCB2C6C30DA7B86200A44787 /* PHGraphObject.m in Sources */,
+				CCB2C6C50DA7B86200A44787 /* PHGraphView.m in Sources */,
+				CCB2C6C70DA7B86200A44787 /* PHPoints.m in Sources */,
+				CCB2C6C90DA7B86200A44787 /* PHxAxis.m in Sources */,
+				CCB2C6CB0DA7B86200A44787 /* PHyAxis.m in Sources */,
+				CCAA9FCB0DB1CA700001AEF9 /* PHOverlayWindow.m in Sources */,
+				CC511F140DBA3221005E3C2B /* PHColor.m in Sources */,
+				CC511F360DBA39A4005E3C2B /* PHAxisSystem.m in Sources */,
+				CC511F410DBA3BBA005E3C2B /* PHCurve.m in Sources */,
+				CC511F430DBA3BBA005E3C2B /* PHFunctionGraph.m in Sources */,
+				CC511F470DBA3BC9005E3C2B /* PHLineWithCartesianEquation.m in Sources */,
+				CC511F4B0DBA3BD8005E3C2B /* PHParametricCurve.m in Sources */,
+				CC53BF8C0DBA476E00CD17E7 /* PHVectorField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PHGraph_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = PHGraph;
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PHGraph_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = PHGraph;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "PHGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "PHGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
